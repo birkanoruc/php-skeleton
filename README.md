@@ -2,36 +2,6 @@
 
 This project is a basic PHP knowledge application. It uses MVC (Model-View-Controller) to host the user's authentication, database connection and transfer as basic. The project is designed to be programmed without requiring programming. It is extremely light and fast.
 
-## Project Structure
-
-/project-root
-│
-├── Core
-│ ├── App.php
-│ ├── Authenticator.php
-│ ├── Container.php
-│ ├── Database.php
-│ ├── functions.php
-│ ├── Response.php
-│ ├── Router.php
-│ ├── Session.php
-│ ├── ValidationException.php
-│ └── Validator.php
-│
-├── Http
-│ ├── Controllers
-│ └── Forms
-│
-├── public
-│ └── index.php
-│
-├── views
-│ └── (Your HTML/PHP view files)
-│
-├── bootstrap.php
-├── config.php
-└── routes.php
-
 ## Core Directory
 
 - **App.php**: Manages the application container. Used for storing and resolving dependencies.
@@ -65,7 +35,8 @@ This project is a basic PHP knowledge application. It uses MVC (Model-View-Contr
 
 1. **Create the Database**: Create a database named `php_skeleton`. You can use SQL files to create the necessary tables.
 2. **Configure**: Update the `config.php` file according to your needs. Add your database connection settings here.
-3. **Run Your Project**: Start the project by running the `public/index.php` file on your web server.
+3. **Install Dependencies**: Run `composer install` to install any dependencies.
+4. **Run Your Project**: Start the project by running the `public/index.php` file on your web server.
 
 ## Usage
 
